@@ -1,0 +1,125 @@
+html {
+ box-sizing: border-box;
+ font-family: sans-serif;
+ font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+ box-sizing: inherit;
+}
+
+body {
+ margin: 0;
+ background-color: #E5E5E5;
+}
+
+header {
+ width: 100%;
+ height: 10%;
+}
+
+.logo-alura {
+ max-width: 90%;
+ margin: auto;
+ padding-top: 0.7em;
+}
+
+#main {
+ width: 100%;
+ height: 80vh;
+}
+
+#main .main-container {
+ display: flex;
+ height: 100%;
+}
+
+.section-input {
+ width: 65%;
+ padding-left: 5em;
+}
+
+#main .input-container {
+ padding-left: 50px;
+ padding-top: 50px;
+ padding-bottom: 23em;
+}
+
+#main .texto {
+ width: 450px;
+ height: 40px;
+ color: #0A3871;
+ background-color: #E5E5E5;
+ border: none;
+}
+
+#main .botones {
+ padding-left: 3em;
+}
+
+#main Small {
+ padding-left: 5px;
+ color: #495057;
+}
+
+button {
+ width: 228px;
+ height: 40px;
+ border-radius: 10px;
+ border: 1px solid #0A3871;
+ box-shadow: 2px 2px 10px #000;
+ color: #fff;
+ background-color: #D8DFE8;
+ color: #0A3871;
+}
+
+button:hover {
+ background-color: #0A3871;
+ color: #D8DFE8;
+}
+
+#section-texto {
+ width: 28%;
+ background-color: #fff;
+ border-radius: 32px;
+ box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.2);
+ margin-left: 1em;
+ text-align: center;
+ box-sizing: border-box;
+ overflow-y: hidden;
+}
+
+#section-texto img {
+ max-width: 100%;
+ height: auto;
+ padding-top: 2em;
+ padding-bottom: 1em;
+}
+
+#section-texto .texto-desencriptado {
+ padding-top: 3em;
+ padding-bottom: 22em;
+ color: #0A3871;
+ width: 100%;
+ height: 50%;
+}
+
+
+footer p {
+ margin: 0;
+ padding: 12px;
+ color: #696969;
+}
+
+footer .container-footer {
+ height: 5em;
+ display: flex;
+ justify-content: flex-start;
+ align-items: flex-start;
+}
+
+.ocultar {
+ display: none;
+}
